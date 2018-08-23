@@ -1,5 +1,0 @@
-<VirtualHost *:80>
-	ServerAdmin ak@alexkell.com
-	ServerName alex.local
-	DocumentRoot /var/www/magento2
-</VirtualHost>
