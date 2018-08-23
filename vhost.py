@@ -8,7 +8,8 @@ print("Hold up, let's see if this file already exists (True or False)? \t> " + s
 
 # prompt for an email address
 print("Well, so maybe it exists and maybe it doesnt. \nWe could probably handle this better. \nI still need to know the email address you want to use for the ServerAdmin.\n")
-admin_email = input("Please provide the admin e-mail address? ") # we will have a syntax error if we don't wrap our input with quotes, encapsulating this input with a str() didnt seem to help
+admin_email = input("Please provide the admin e-mail address? ") 
+# we will have a syntax error if we don't wrap our command line input with quotes, encapsulating this input with a str() didnt seem to help
 # introduce some exception handling here to ask the user to try again but with quotes
 
 # now let's attempt to open the new file
